@@ -24,8 +24,6 @@ const Home: NextPage = () => {
     diaristasRestantes,
   } = useIndex();
 
-  console.log(diaristasRestantes);
-
   return (
     <div>
       <SafeEnvironment />
